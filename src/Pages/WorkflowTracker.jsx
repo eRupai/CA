@@ -86,9 +86,9 @@ const FontLink = () => (
     @media (max-width: 768px) {
       .desktop-nav { display: none !important; }
       .hamburger-btn { display: flex !important; }
-      .hero-split { flex-direction: column !important; }
-      .hero-img-side { width: 100% !important; height: 55vw !important; min-height: 220px !important; max-height: 340px !important; }
-      .hero-content { padding: 32px 20px !important; }
+      .hero-split { flex-direction: row !important; }
+      .hero-img-side { display: none !important; }
+      .hero-content { width: 100% !important; padding: 52px 24px 72px !important; min-height: 88vh !important; }
       .hero-chips { flex-direction: column !important; gap: 0 !important; }
       .hero-chip-divider { display: none !important; }
       .trust-bar-grid { grid-template-columns: 1fr 1fr !important; }
@@ -425,7 +425,7 @@ export default function AsadLeather() {
 
           {/* Scroll hint — hidden on mobile */}
           <div style={{ position:"absolute", bottom:24, left:"50%", transform:"translateX(-50%)", display:"flex", flexDirection:"column", alignItems:"center", gap:6, color:"#A8A39C" }}>
-            <span style={{ fontFamily:"'Inter', sans-serif", fontSize:8.5, letterSpacing:"0.32em", textTransform:"uppercase" }}></span>
+            <span style={{ fontFamily:"'Inter', sans-serif", fontSize:8.5, letterSpacing:"0.32em", textTransform:"uppercase" }}>Scroll</span>
             <div style={{ width:1, height:28, background:"#C6A16E", opacity:0.5 }} />
           </div>
         </section>
